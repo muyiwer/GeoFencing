@@ -5,7 +5,7 @@ import "./index.css";
 
 function App() {
   return (
-    <section className="grid grid-cols-[200px_1fr] max-md:grid-cols-1">
+    <section className="grid grid-cols-[260px_1fr] max-md:grid-cols-1">
       <AppMenu />
       <main className="grid grid-rows-[50px_1fr]">
         <AppHeader />
