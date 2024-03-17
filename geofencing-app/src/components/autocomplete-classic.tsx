@@ -34,9 +34,10 @@ export const PlaceAutocompleteClassic = ({ onPlaceSelect }: Props) => {
 
   return (
     <div className="flex gap-2">
-      <div className="bg-white p-2 w-[350px] flex gap-2 flex-col gap-2">
-        <div>
-          <Radio>Center point</Radio>
+      <div className="bg-white p-2 w-[350px] flex flex-col gap-2">
+        <div className="flex gap-3 w-[300px]">
+          <Radio>Center Point + Radius</Radio>
+          <Radio>Administrative Boundaries</Radio>
         </div>
         <div className="flex gap-2 items-end">
           {" "}
